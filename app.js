@@ -6,6 +6,9 @@ document.getElementById("calculateBtn").addEventListener("click", function () {
   let operation = document.getElementById("operation").value;
   console.log(operation);
 
+  console.log("just checking out pull and fetch in git");
+  console.log("checking out pull and fetch in git");
+
   let result;
   switch (operation) {
     case "add":
